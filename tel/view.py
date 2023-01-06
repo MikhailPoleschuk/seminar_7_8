@@ -4,6 +4,7 @@ def what_do():
     print('2. Добавить контакт')
     print('3. Удалить контакт')
     print('4. Изменить контакт')
+    print('0. текущие тесты')
 
     to_do = int(input("-->"))
     return to_do

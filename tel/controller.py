@@ -1,6 +1,8 @@
+
+
 from view import what_do, find_input, add_input
 from func import find, add
-from data_base import open_db
+from data_base import read_db
 import csv
 
 
@@ -11,3 +13,6 @@ def start():
         find(find_input())
     elif what_do_ == 2:
         add(add_input())
+    elif what_do_ == 0:
+        read_db()
+

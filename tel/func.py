@@ -1,17 +1,17 @@
-import csv
+
 
 
 
 def find(str):
-
+    import csv
     with open('spr_tel.csv', 'r', encoding="utf-8") as file:
         db = csv.reader(file)
-
+        
         found = 0
         for item in db:
             
             if str in item:
-                print(item)
+                print(*item)
                 found = 1
 
         if (found == 0):
