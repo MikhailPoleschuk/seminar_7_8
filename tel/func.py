@@ -1,9 +1,9 @@
 
-
+import csv
 
 
 def find(str):
-    import csv
+    
     with open('spr_tel.csv', 'r', encoding="utf-8") as file:
         db = csv.reader(file)
         
